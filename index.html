@@ -11,11 +11,8 @@
     <header>
         <div class="logo">E-shop</div>
         <div class="cart">
-
+            <search></search>
             <button class="btn-cart" type="button" @click="showCart = !showCart">Корзина</button>
-            
-       
-            
             <cart :cart-items="cartItems"
             :img="imgCart"
             :visibility="showCart"></cart>
