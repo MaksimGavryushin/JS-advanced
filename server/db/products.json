@@ -1,43 +1,22 @@
-[{
-        "id_product": 1,
-        "imgProduct": "img/product-card-1.png",
-        "product_name": "Awesome Product",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "price": 100
-    },
-    {
-        "id_product": 2,
-        "imgProduct": "img/product-card-2.png",
-        "product_name": "Another Product",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "price": 500
-    },
-    {
-        "id_product": 3,
-        "imgProduct": "img/product-card-3.png",
-        "product_name": "Something New",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-        "price": 1000
-    },
-    {
-        "id_product": 4,
-        "imgProduct": "img/product-card-4.png",
-        "product_name": "Dummy Thing",
-        "description": "Lorem ipsum dolor sit amet.",
-        "price": 1500
-    },
-    {
-        "id_product": 5,
-        "imgProduct": "img/product-card-5.png",
-        "product_name": "Product Example",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "price": 300
-    },
-    {
-        "id_product": 6,
-        "imgProduct": "img/product-card-6.png",
-        "product_name": "Another One",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur.",
-        "price": 2700
-    }
+[
+  {
+    "id_product": 124,
+    "product_name": "Keyboard",
+    "price": 1600
+  },
+  {
+    "id_product": 457,
+    "product_name": "Gamepad",
+    "price": 3000
+  },
+  {
+    "id_product": 123,
+    "product_name": "Ноутбук",
+    "price": 45600
+  },
+  {
+    "id_product": 456,
+    "product_name": "Мышка",
+    "price": 1000
+  }
 ]
