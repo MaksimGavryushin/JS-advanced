@@ -1,38 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webshop Project</title>
-
-    <!-- Style -->
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- External Scripts -->
-    <script src="https://kit.fontawesome.com/23f243ed64.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-    <!-- Scripts -->
-    <script src="js/components.js" defer></script>
-    <script src="js/main.js" defer></script>
 </head>
-
 <body>
-    <div id="app">
-        <header-comp ref="showCart"></header-comp>
-        <cart-comp ref="cart"></cart-comp>
+<div id="app">
+    <header>
+        <div class="logo">Интернет-магазин</div>
+        <div class="cart">
+            <search></search>
+            <cart ref="cart"></cart>
+        </div>
+    </header>
+    <main>
+        <products ref="products"></products>
         <error ref="error"></error>
-        <main>
-            <hero-comp></hero-comp>
-            <promo-comp></promo-comp>
-            <product-grid-comp ref="products"></product-grid-comp>
-        </main>
-        <benefits-comp></benefits-comp>
-        <footer-comp></footer-comp>
-    </div>
+    </main>
+</div>
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/Cart.js"></script>
+<script src="js/Products.js"></script>
+<script src="js/Search.js"></script>
+<script src="js/Error.js"></script>
+<script src="js/main.js"></script>
 </body>
-
 </html>
